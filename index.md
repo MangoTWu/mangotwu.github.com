@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog | Wu Xie
-tagline: Supporting tagline
+title: Blog
+tagline: Wu Xie
 ---
 {% include JB/setup %}
 
@@ -13,8 +13,8 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
 ​    
-    title : My Blog =)
-    
+​    title : My Blog =)
+​    
     author :
       name : Name Lastname
       email : blah@email.test
