@@ -11,8 +11,6 @@ tagline: Welcome to my blog
 
 - [GitHub](https://github.com/MangoTWu)
 
-
-
 ------
 
 Here's posts list.
