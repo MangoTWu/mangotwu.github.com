@@ -1,0 +1,25 @@
+/* home article */
+.home-article {
+    font-size: 90%;
+    color: #444;
+}
+.home-article h1 {
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+.home-article p {
+    margin-bottom: 24px;
+}
+.home-article ul {
+    margin-left: 36px;
+}
+.home-article li {
+    line-height: 1.7;
+}
+.home-article ul a {
+    text-decoration: none;
+    color: #21759b;
+}
+.home-article ul a:hover, .home-article ul a:focus {
+    color: #444;
+}
