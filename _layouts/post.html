@@ -1,5 +1,10 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-{{ content }}
+<header class="post-head">
+	<h2 class="post-title">{{ page.title }}</h2>
+	<small>发布于{{ page.date | date: "%Y年%m月%d日"}}</small>
+</header>
+<div class="post-content">
+  {{ content }}
+</div>

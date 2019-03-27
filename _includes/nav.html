@@ -1,0 +1,28 @@
+<header>
+    <div class="home-head">
+        <h1 class="head-title">
+            <a href="/">吴 谢</a>
+        </h1>
+        <h2 class="head-description">
+            学习和创作的2019
+        </h2>
+    </div>
+    <nav class="home-nav">
+        <ul class="nav-menu">
+          {% for item in site.data.navigation %}
+            <li class="nav-item">
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="/posts">博客</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">项目</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">联系</a>
+            </li> -->
+          {% endfor %}
+        </ul>
+    </nav>
+</header>

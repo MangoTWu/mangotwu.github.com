@@ -1,0 +1,23 @@
+.posts-title {
+	font-weight: normal;
+}
+ul.posts-list {
+	margin: 30px 0;
+	list-style: none;
+}
+ul.posts-list li {
+	font-size: 1.1rem;
+	padding: 0 40px;
+}
+ul.posts-list li a {
+	height: 100%;
+	color: #21759b;
+	text-decoration: none;
+}
+ul.posts-list li a:hover, ul.posts-list li a:focus {
+	color: #0f3647;
+}
+ul.posts-list li div {
+	display: inline;
+	float: left;
+}
