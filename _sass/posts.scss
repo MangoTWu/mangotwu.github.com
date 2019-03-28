@@ -7,12 +7,13 @@ ul.posts-list {
 }
 ul.posts-list li {
 	font-size: 1.1rem;
-	padding: 0 40px;
+	padding: 0 40px 0 20px;
 }
 ul.posts-list li a {
 	height: 100%;
 	color: #21759b;
 	text-decoration: none;
+	margin-left: 1rem;
 }
 ul.posts-list li a:hover, ul.posts-list li a:focus {
 	color: #0f3647;
