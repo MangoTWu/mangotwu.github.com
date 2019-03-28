@@ -19,6 +19,11 @@ body {
 }
 
 /* header */
+@media screen and (max-width: 380px){
+    .home-page header .home-head {
+        text-align: center;
+    }
+}
 .home-page header {
     padding: 24px 0;
 }

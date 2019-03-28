@@ -12,6 +12,12 @@ header.post-head small {
 	font-style: italic;
 	margin-left: 20px;
 }
+@media screen and (max-width: 380px){
+	header.post-head small {
+		display: block;
+		margin: 1rem 0 1.5rem;
+	}
+}
 .post-content h3, .post-content h4, .post-content h5, .post-content p {
 	margin: 10px 0;
 }
