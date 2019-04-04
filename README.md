@@ -1,3 +1,3 @@
 # 一、说明
 
-[这里](https://findwuxie.com/)是博客主页
+[这里](https://wuxie.blog/)是博客主页
