@@ -17,7 +17,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+@media screen and (max-width: 380px){
+    .home-page {
+        padding: 0 24px;
+    }
+}
 /* header */
 @media screen and (max-width: 380px){
     .home-page header .home-head {
